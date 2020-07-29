@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.boxed{
+    border: 10px solid yellow;
+    height: 1020px;
+    width: 900px;
+    border-radius: 30px;
+    outline: none;
+    padding: 30px;
+  }
+  .boxer{
+    border: 10px solid yellow;
+    height: inherit;
+    width: 700px;
+    border-radius: 30px;
+    outline: none;
+    padding: 30px;
+    background: linear-gradient(45deg,yellow,orange,white,yellow,orange,white);
+  }
+.inputBox{
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    outline: none;
+
+
+}
+.inputBox input{
+    width: 350px;
+    height: 54px;
+    margin: 0 10px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    background-color: yellow;
+    border: 5px solid red;
+    text-align: center;
+    outline: none;
+
+}
+.inputBox button{
+    width: 120px;
+    height: 54px;
+    background: linear-gradient(45deg,yellow,orange,white);
+    color: black;
+    border: none;
+     border-radius: 30px;
+     border: 5px solid red;
+    font-size: 1.2rem;
+    outline: none;
+}
+.inputBox button:hover{
+    background: linear-gradient(45deg,yellow,orange,yellow,orange);
+    z-index: 1;
+    font-size: 1.4rem;
+    width: 130px;
+    height: 54px;
+    border-radius:50%;
+    border: 5px solid red;
+    animation: glow 8s linear infinite;
+    outline: none;
+}
+  @keyframes glow {
+    0%{ background-position: 0%;}
+    100%{ background-position: 400%}
+
+}
+
+
+.data{
+    width: 800px;
+    margin: 0 auto;
+}
+.box .head {
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    background: linear-gradient(45deg,yellow,white,orange);
+}
+.box .head span{
+    font-size: 2rem;
+}
+.total{
+    display: flex;
+    width: 800px;
+    height: 250px;
+    justify-content: space-between;
+
+}
+.total div{
+    margin-top: 20px;
+    width: 30%;
+    height: 250px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 40px;
+    background-color: rgb(137, 137, 137);
+    color:black;
+}
+.total div p{
+    margin: 50px 0 10px 0;
+}
+.total div:nth-child(1){
+    background: linear-gradient(45deg,lightblue,blue,lightblue,blue);
+    border: 10px solid blue;
+}
+.total div:nth-child(2){
+    background: linear-gradient(45deg,pink,red,pink,red);
+    border: 10px solid red;
+}
+.total div:nth-child(3){
+    background: linear-gradient(45deg,yellow,lightgreen,green,yellow,lightgreen,green);
+    border: 10px solid green;
+}
+
+
+.new{
+    margin-top: 60px;
+    display: flex;
+    width: 800px;
+    height: 250px;
+    justify-content: space-between;
+}
+.new div{
+    width: 30%;
+    height: 250px;
+    background-color: rgb(65, 144, 255);
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 40px;
+}
+.new div p{
+    margin: 50px 0 10px 0;
+}
+.new div:nth-child(1){
+    background: linear-gradient(45deg,lightblue,blue,lightblue,blue);
+    border: 10px solid blue;
+}
+.new div:nth-child(2){
+    background: linear-gradient(45deg,pink,red,pink,red);
+    border: 10px solid red;
+}
+.new div:nth-child(3){
+    background: linear-gradient(45deg,yellow,lightgreen,green,yellow,lightgreen,green);
+    border: 10px solid green;
+}
+.details{
+    margin-top: 60px;
+    display: flex;
+    width: 800px;
+    height: 250px;
+    justify-content: space-between;
+}
+.details div{
+    width: 30%;
+    height: 250px;
+    background-color: rgb(65, 144, 255);
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 40px;
+}
+.details div p{
+    margin: 50px 0 10px 0;
+}
+.details div:nth-child(1){
+    background: linear-gradient(45deg,lightblue,blue,lightblue,blue);
+    border: 10px solid blue;
+}
+.details div:nth-child(2){
+    background: linear-gradient(45deg,pink,red,pink,red);
+    border: 10px solid red;
+}
+.details div:nth-child(3){
+    background: linear-gradient(45deg,yellow,lightgreen,green,yellow,lightgreen,green);
+    border: 10px solid green;
+}
+
+body{
+    background:url("https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+
+}
